@@ -18,6 +18,11 @@ au FileType python map <buffer> <leader>2 /def
 au FileType python map <buffer> <leader>C ?class 
 au FileType python map <buffer> <leader>D ?def 
 
+""""""""""""""""""""""""""""""
+" => C++ section
+""""""""""""""""""""""""""""""
+au FileType cpp set tabstop=2
+au FileType cpp set shiftwidth=2
 
 """"""""""""""""""""""""""""""
 " => JavaScript section
