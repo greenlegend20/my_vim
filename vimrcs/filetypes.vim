@@ -27,7 +27,9 @@ au FileType cpp set shiftwidth=2
 """"""""""""""""""""""""""""""
 " => JavaScript section
 """""""""""""""""""""""""""""""
-au FileType javascript call JavaScriptFold()
+au FileType javascript set tabstop=2
+au FileType javascript set shiftwidth=2
+" au FileType javascript call JavaScriptFold()
 au FileType javascript setl fen
 au FileType javascript setl nocindent
 
