@@ -74,6 +74,8 @@ if exists('$TMUX')
     endif
 endif
 
+au FileType sh set tabstop=2
+au FileType sh set shiftwidth=2
 
 """"""""""""""""""""""""""""""
 " => Twig section
